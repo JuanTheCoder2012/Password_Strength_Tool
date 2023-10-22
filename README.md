@@ -1,1 +1,2 @@
-# Password_Strength_Tool
+# Password Strength Checker (Python GUI)
+
