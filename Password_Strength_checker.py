@@ -46,10 +46,10 @@ root.geometry(f"{window_width}x{window_height}")
 # Password entry
 password_label = tk.Label(root, text="Enter your password:")
 password_label.pack()
-password_entry = tk.Entry(root, show="*")
+password_entry = tk.Entry(root, show="")
 password_entry.pack()
 
-# Password strength bar
+# Password strength barS
 strength_label = tk.Label(root, text="")
 strength_label.pack()
 strength_bar = ttk.Progressbar(root, length=200, mode="determinate")
