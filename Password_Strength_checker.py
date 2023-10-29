@@ -28,7 +28,7 @@ def check_password_strength():
         
     strength_bar["value"] = (score / 4) * 100
     
-    if score == 4:
+    if score >= 4:
         strength_label.config(text="Password is strong!", foreground="green")
     else:
         strength_label.config(text="Password is weak. Please make sure it includes uppercase, lowercase, numbers, and special characters.",
